@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CM SOE UPG High School Saraidih, Latehar | Govt. of Jharkhand</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    /* Smooth Ticker Animation */
+    @keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    .animate-marquee {
+      display: inline-block;
+      white-space: nowrap;
+      animation: marquee 28s linear infinite;
+    }
+    .animate-marquee:hover {
+      animation-play-state: paused;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+  <!-- 1. TOP UTILITY BAR -->
+  <div class="bg-blue-950 text-slate-200 text-xs py-2 border-b border-blue-900">
+    <div class="max-w-7xl mx-auto px-4 flex flex-wrap justify-between items-center gap-2">
+      <div class="flex items-center space-x-4">
+        <span><i class="fa-solid fa-phone text-amber-400 mr-1.5"></i> Helpdesk: +91 98765 43210</span>
+        <span class="hidden sm:inline"><i class="fa-solid fa-envelope text-amber-400 mr-1.5"></i> cmsoesaraidih@jharkhand.gov.in</span>
+      </div>
+      <div class="flex items-center space-x-4">
+        <a href="https://evidyavahini.jharkhand.gov.in/" target="_blank" class="hover:text-amber-400 transition font-medium">
+          <i class="fa-solid fa-arrow-up-right-from-square mr-1"></i> e-VidyaVahini Portal
+        </a>
+        <span class="text-blue-700">|</span>
+        <a href="#admissions" class="bg-amber-500 hover:bg-amber-600 text-blue-950 font-bold px-2.5 py-0.5 rounded transition">
+          Admissions 2026-27
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. MAIN HEADER & BRANDING -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col md:flex-row justify-between items-center gap-4">
+      <!-- School & State Identity -->
+      <div class="flex items-center space-x-4 text-center md:text-left">
+        <div class="w-14 h-14 rounded-full bg-blue-900 text-amber-400 flex items-center justify-center shrink-0 shadow-md border-2 border-amber-400">
+          <i class="fa-solid fa-graduation-cap text-2xl"></i>
+        </div>
+        <div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-emerald-700 block">
+            Department of School Education & Literacy, Govt. of Jharkhand
+          </span>
+          <h1 class="text-xl sm:text-2xl font-extrabold text-blue-950 leading-tight">
+            CM School of Excellence UPG HS Saraidih
+          </h1>
+          <p class="text-xs text-slate-500 font-medium">District: Latehar, Jharkhand | UDISE Code: 2022XXXXXX</p>
+        </div>
+      </div>
+
+      <!-- CBSE / Quality Badge -->
+      <div class="hidden lg:flex items-center space-x-3 bg-slate-100 px-4 py-2 rounded-lg border border-slate-200">
+        <i class="fa-solid fa-award text-amber-500 text-2xl"></i>
+        <div class="text-xs">
+          <p class="font-bold text-blue-950">Model School Initiative</p>
+          <p class="text-slate-600">English Medium • Smart Campus</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="bg-blue-900 text-white">
+      <div class="max-w-7xl mx-auto px-4">
+        <ul class="flex flex-wrap justify-center md:justify-start text-sm font-medium">
+          <li><a href="#home" class="block px-4 py-3 bg-blue-800 border-b-2 border-amber-400">Home</a></li>
+          <li><a href="#about" class="block px-4 py-3 hover:bg-blue-800 transition">About & Vision</a></li>
+          <li><a href="#facilities" class="block px-4 py-3 hover:bg-blue-800 transition">Facilities</a></li>
+          <li><a href="#notices" class="block px-4 py-3 hover:bg-blue-800 transition">Notice Board</a></li>
+          <li><a href="#admissions" class="block px-4 py-3 hover:bg-blue-800 transition">Admissions</a></li>
+          <li><a href="#gallery" class="block px-4 py-3 hover:bg-blue-800 transition">Gallery</a></li>
+          <li><a href="#contact" class="block px-4 py-3 hover:bg-blue-800 transition">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- 3. FLASH NOTICE MARQUEE -->
+  <div class="bg-amber-50 border-b border-amber-200 py-2 overflow-hidden flex items-center">
+    <div class="bg-red-600 text-white text-xs font-bold uppercase px-3 py-1 ml-4 rounded shrink-0 z-10 shadow">
+      Latest Updates
+    </div>
+    <div class="overflow-hidden w-full ml-3">
+      <p class="animate-marquee text-sm font-medium text-blue-950">
+        🔴 Admission forms for Session 2026-27 are now live on the Jharkhand CM SOE Portal. &nbsp;&nbsp;|&nbsp;&nbsp; 
+        📢 Annual Science & Robotics Exhibition scheduled for next month at Saraidih Campus. &nbsp;&nbsp;|&nbsp;&nbsp; 
+        🏆 Congratulations to our students for 100% pass results in the Board Examinations!
+      </p>
+    </div>
+  </div>
+
+  <!-- 4. HERO SECTION -->
+  <section id="home" class="relative bg-gradient-to-r from-blue-950 via-blue-900 to-slate-900 text-white py-16 md:py-24">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <span class="inline-block bg-amber-500/20 text-amber-300 border border-amber-400/30 text-xs font-semibold px-3 py-1 rounded-full mb-4">
+          Empowering Rural Talent in Latehar
+        </span>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight mb-5">
+          World-Class Education in the Heart of <span class="text-amber-400">Saraidih</span>
+        </h2>
+        <p class="text-slate-300 text-base sm:text-lg mb-8 leading-relaxed">
+          Committed to delivering quality English-medium education, digital smart classrooms, and holistic student development under the Government of Jharkhand's flagship CM School of Excellence initiative.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#admissions" class="bg-amber-500 hover:bg-amber-600 text-blue-950 font-bold px-6 py-3 rounded-lg shadow-lg transition">
+            Apply for Admission
+          </a>
+          <a href="#facilities" class="bg-white/10 hover:bg-white/20 text-white border border-white/30 font-semibold px-6 py-3 rounded-lg transition">
+            Explore Campus
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Stats Card -->
+      <div class="grid grid-cols-2 gap-4">
+        <div class="bg-white/10 backdrop-blur-sm border border-white/15 p-6 rounded-xl">
+          <i class="fa-solid fa-chalkboard-user text-amber-400 text-3xl mb-3"></i>
+          <h3 class="text-2xl font-bold">100%</h3>
+          <p class="text-sm text-slate-300">Digital Smart Classrooms</p>
+        </div>
+        <div class="bg-white/10 backdrop-blur-sm border border-white/15 p-6 rounded-xl">
+          <i class="fa-solid fa-flask-vial text-emerald-400 text-3xl mb-3"></i>
+          <h3 class="text-2xl font-bold">3+ Labs</h3>
+          <p class="text-sm text-slate-300">Physics, Chemistry & Biology</p>
+        </div>
+        <div class="bg-white/10 backdrop-blur-sm border border-white/15 p-6 rounded-xl">
+          <i class="fa-solid fa-computer text-sky-400 text-3xl mb-3"></i>
+          <h3 class="text-2xl font-bold">ICT Lab</h3>
+          <p class="text-sm text-slate-300">High-Speed Internet & PCs</p>
+        </div>
+        <div class="bg-white/10 backdrop-blur-sm border border-white/15 p-6 rounded-xl">
+          <i class="fa-solid fa-book-open-reader text-rose-400 text-3xl mb-3"></i>
+          <h3 class="text-2xl font-bold">2,500+</h3>
+          <p class="text-sm text-slate-300">Library Books & Journals</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. ABOUT US, VISION & MISSION -->
+  <section id="about" class="py-16 max-w-7xl mx-auto px-4">
+    <div class="grid lg:grid-cols-3 gap-8">
+      <!-- About School -->
+      <div class="lg:col-span-1 bg-white p-7 rounded-2xl shadow-sm border border-slate-200">
+        <span class="text-xs font-bold uppercase tracking-wider text-blue-700">About Our Institution</span>
+        <h3 class="text-2xl font-bold text-blue-950 mt-1 mb-4">CM SOE UPG HS Saraidih</h3>
+        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+          Upgraded under the prestigious <strong>Chief Minister's School of Excellence (CM SOE)</strong> scheme by the Government of Jharkhand, our institution in Saraidih, Latehar bridges the gap between rural talent and modern educational standards.
+        </p>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          We focus on activity-based learning, foundational literacy, vocational skills, and competitive readiness so every student thrives without financial barriers.
+        </p>
+      </div>
+
+      <!-- Vision & Mission Cards -->
+      <div class="lg:col-span-2 grid sm:grid-cols-2 gap-6">
+        <div class="bg-blue-900 text-white p-7 rounded-2xl shadow-md flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-amber-400 text-blue-950 flex items-center justify-center text-xl mb-5">
+              <i class="fa-solid fa-eye"></i>
+            </div>
+            <h4 class="text-xl font-bold mb-3">Our Vision</h4>
+            <p class="text-blue-100 text-sm leading-relaxed">
+              To transform rural education in Latehar by providing world-class, affordable, and holistic learning opportunities—empowering students from Saraidih to compete globally, think critically, and grow into responsible citizens.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-blue-800 text-xs text-amber-300 font-semibold">
+            "Excellence Without Barriers"
+          </div>
+        </div>
+
+        <div class="bg-white p-7 rounded-2xl shadow-sm border border-slate-200">
+          <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-xl mb-5">
+            <i class="fa-solid fa-bullseye"></i>
+          </div>
+          <h4 class="text-xl font-bold text-blue-950 mb-3">Our Mission</h4>
+          <ul class="space-y-3 text-sm text-slate-600">
+            <li class="flex items-start gap-2.5">
+              <i class="fa-solid fa-circle-check text-emerald-600 mt-1"></i>
+              <span><strong>Academic Rigor:</strong> Delivering quality curriculum aligned with CBSE/JAC excellence standards.</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <i class="fa-solid fa-circle-check text-emerald-600 mt-1"></i>
+              <span><strong>Digital Inclusion:</strong> Hands-on learning through smart boards and modern ICT computer labs.</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <i class="fa-solid fa-circle-check text-emerald-600 mt-1"></i>
+              <span><strong>Holistic Growth:</strong> Nurturing sports, arts, leadership, and vocational readiness.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. INFRASTRUCTURE & FACILITIES -->
+  <section id="facilities" class="py-16 bg-slate-100 border-y border-slate-200">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs font-bold uppercase tracking-wider text-blue-700">Campus Infrastructure</span>
+        <h3 class="text-3xl font-extrabold text-blue-950 mt-1">Modern Facilities for Students</h3>
+        <p class="text-slate-600 text-sm mt-2">
+          Equipped as per CM School of Excellence benchmarks to foster curiosity, safety, and practical skills.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Facility 1 -->
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-lg bg-blue-100 text-blue-800 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-display"></i>
+          </div>
+          <h4 class="font-bold text-lg text-blue-950 mb-2">Smart Classrooms</h4>
+          <p class="text-sm text-slate-600">Interactive digital panels and audio-visual learning tools that simplify complex concepts across all subjects.</p>
+        </div>
+
+        <!-- Facility 2 -->
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-lg bg-indigo-100 text-indigo-800 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <h4 class="font-bold text-lg text-blue-950 mb-2">ICT & Computer Lab</h4>
+          <p class="text-sm text-slate-600">Dedicated computer workstations with broadband connectivity for coding, digital literacy, and e-learning.</p>
+        </div>
+
+        <!-- Facility 3 -->
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-microscope"></i>
+          </div>
+          <h4 class="font-bold text-lg text-blue-950 mb-2">Integrated Science Labs</h4>
+          <p class="text-sm text-slate-600">Fully stocked Physics, Chemistry, and Biology laboratories encouraging experiential scientific inquiry.</p>
+        </div>
+
+        <!-- Facility 4 -->
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-lg bg-amber-100 text-amber-800 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-book"></i>
+          </div>
+          <h4 class="font-bold text-lg text-blue-950 mb-2">Rich Library & Reading Room</h4>
+          <p class="text-sm text-slate-600">Quiet reading spaces stocked with NCERT/CBSE textbooks, reference encyclopedias, newspapers, and magazines.</p>
+        </div>
+
+        <!-- Facility 5 -->
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-lg bg-rose-100 text-rose-800 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-futbol"></i>
+          </div>
+          <h4 class="font-bold text-lg text-blue-950 mb-2">Sports & Playground</h4>
+          <p class="text-sm text-slate-600">Expansive playground supporting athletics, football, kabaddi, volleyball, and indoor games for physical wellness.</p>
+        </div>
+
+        <!-- Facility 6 -->
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-lg bg-cyan-100 text-cyan-800 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <h4 class="font-bold text-lg text-blue-950 mb-2">Safe & Hygienic Campus</h4>
+          <p class="text-sm text-slate-600">Secured boundary wall, RO drinking water, separate sanitation facilities for boys and girls, and Mid-Day Meal kitchen.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. DIGITAL NOTICE BOARD & ADMISSIONS HUB -->
+  <section id="notices" class="py-16 max-w-7xl mx-auto px-4">
+    <div class="grid lg:grid-cols-2 gap-10">
+      
+      <!-- Notice Board -->
+      <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+        <div class="bg-blue-950 text-white px-6 py-4 flex justify-between items-center">
+          <h3 class="font-bold text-lg"><i class="fa-solid fa-bullhorn text-amber-400 mr-2"></i> Digital Notice Board</h3>
+          <span class="text-xs bg-blue-800 px-2.5 py-1 rounded">Session 2026-27</span>
+        </div>
+        <div class="divide-y divide-slate-100">
+          <div class="p-5 hover:bg-slate-50 transition flex justify-between items-start gap-4">
+            <div>
+              <span class="text-[11px] font-bold text-red-600 uppercase">New • Admission</span>
+              <h4 class="font-semibold text-slate-800 text-sm mt-0.5">Entrance Test Schedule & Merit List Guidelines for Class IX & XI</h4>
+              <p class="text-xs text-slate-500 mt-1">Issued by Principal Office, CM SOE UPG HS Saraidih</p>
+            </div>
+            <a href="#" class="text-blue-700 hover:text-blue-900 text-xs font-bold shrink-0 border border-blue-200 px-3 py-1.5 rounded">
+              <i class="fa-solid fa-download mr-1"></i> PDF
+            </a>
+          </div>
+
+          <div class="p-5 hover:bg-slate-50 transition flex justify-between items-start gap-4">
+            <div>
+              <span class="text-[11px] font-bold text-blue-600 uppercase">Academics</span>
+              <h4 class="font-semibold text-slate-800 text-sm mt-0.5">Pre-Board Examination Routine & Practical Assessment Dates</h4>
+              <p class="text-xs text-slate-500 mt-1">Applicable for Secondary & Senior Secondary Students</p>
+            </div>
+            <a href="#" class="text-blue-700 hover:text-blue-900 text-xs font-bold shrink-0 border border-blue-200 px-3 py-1.5 rounded">
+              <i class="fa-solid fa-download mr-1"></i> PDF
+            </a>
+          </div>
+
+          <div class="p-5 hover:bg-slate-50 transition flex justify-between items-start gap-4">
+            <div>
+              <span class="text-[11px] font-bold text-emerald-600 uppercase">Circular</span>
+              <h4 class="font-semibold text-slate-800 text-sm mt-0.5">Parent-Teacher Meeting (PTM) & Student Progress Review Notice</h4>
+              <p class="text-xs text-slate-500 mt-1">All parents are requested to attend at 10:30 AM</p>
+            </div>
+            <a href="#" class="text-blue-700 hover:text-blue-900 text-xs font-bold shrink-0 border border-blue-200 px-3 py-1.5 rounded">
+              <i class="fa-solid fa-download mr-1"></i> PDF
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Admissions Information -->
+      <div id="admissions" class="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-8 border border-amber-200 flex flex-col justify-between">
+        <div>
+          <span class="bg-amber-500 text-blue-950 text-xs font-extrabold uppercase px-3 py-1 rounded-full">
+            Admissions Open
+          </span>
+          <h3 class="text-2xl font-extrabold text-blue-950 mt-4 mb-3">Join CM SOE UPG HS Saraidih</h3>
+          <p class="text-sm text-slate-700 leading-relaxed mb-5">
+            Admissions are conducted transparently through the official Jharkhand Education Project Council (JEPC) portal and district selection guidelines.
+          </p>
+          <div class="bg-white/80 rounded-xl p-4 border border-amber-200/80 mb-6">
+            <h4 class="font-bold text-sm text-blue-950 mb-2">Required Documents for Verification:</h4>
+            <ul class="text-xs text-slate-700 space-y-1.5">
+              <li>• Birth Certificate & Aadhaar Card of Student</li>
+              <li>• Previous Class Marksheet & Transfer Certificate (TC)</li>
+              <li>• Residential & Caste Certificate (if applicable)</li>
+              <li>• 2 Recent Passport-size Photographs</li>
+            </ul>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <a href="https://evidyavahini.jharkhand.gov.in/" target="_blank" class="bg-blue-950 hover:bg-blue-900 text-white text-sm font-bold px-5 py-3 rounded-lg transition">
+            Apply via Official Portal
+          </a>
+          <a href="#contact" class="bg-white hover:bg-slate-100 text-blue-950 border border-slate-300 text-sm font-bold px-5 py-3 rounded-lg transition">
+            Visit School Helpdesk
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 8. CAMPUS GALLERY PLACEHOLDER -->
+  <section id="gallery" class="py-16 bg-white border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-8 gap-4">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-blue-700">Campus Life</span>
+          <h3 class="text-2xl font-extrabold text-blue-950 mt-1">Photo Gallery</h3>
+        </div>
+        <p class="text-xs text-slate-500">Replace these placeholders with actual school event photos</p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="aspect-video bg-slate-200 rounded-xl flex flex-col items-center justify-center text-slate-500 p-4 text-center border border-slate-300">
+          <i class="fa-solid fa-school text-2xl mb-2 text-blue-900"></i>
+          <span class="text-xs font-semibold">Main School Building</span>
+        </div>
+        <div class="aspect-video bg-slate-200 rounded-xl flex flex-col items-center justify-center text-slate-500 p-4 text-center border border-slate-300">
+          <i class="fa-solid fa-computer text-2xl mb-2 text-blue-900"></i>
+          <span class="text-xs font-semibold">Smart Class Session</span>
+        </div>
+        <div class="aspect-video bg-slate-200 rounded-xl flex flex-col items-center justify-center text-slate-500 p-4 text-center border border-slate-300">
+          <i class="fa-solid fa-flask text-2xl mb-2 text-blue-900"></i>
+          <span class="text-xs font-semibold">Science Lab Practical</span>
+        </div>
+        <div class="aspect-video bg-slate-200 rounded-xl flex flex-col items-center justify-center text-slate-500 p-4 text-center border border-slate-300">
+          <i class="fa-solid fa-trophy text-2xl mb-2 text-blue-900"></i>
+          <span class="text-xs font-semibold">Annual Sports Day</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. FOOTER & CONTACT -->
+  <footer id="contact" class="bg-blue-950 text-slate-300 pt-14 pb-8">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-10 pb-10 border-b border-blue-900">
+      <div>
+        <h4 class="text-white font-bold text-lg mb-3">CM SOE UPG HS Saraidih</h4>
+        <p class="text-xs leading-relaxed text-slate-400 mb-4">
+          An initiative by the Department of School Education & Literacy, Government of Jharkhand to deliver quality education in Latehar district.
+        </p>
+        <p class="text-xs text-amber-400 font-semibold">School Hours: Mon – Sat | 9:00 AM – 3:00 PM</p>
+      </div>
+
+      <div>
+        <h4 class="text-white font-bold text-base mb-3">Important Government Links</h4>
+        <ul class="space-y-2 text-xs">
+          <li><a href="https://evidyavahini.jharkhand.gov.in/" target="_blank" class="hover:text-amber-400 transition">• e-VidyaVahini Jharkhand</a></li>
+          <li><a href="https://jac.jharkhand.gov.in/" target="_blank" class="hover:text-amber-400 transition">• Jharkhand Academic Council (JAC)</a></li>
+          <li><a href="https://latehar.nic.in/" target="_blank" class="hover:text-amber-400 transition">• District Administration Latehar</a></li>
+          <li><a href="https://ncert.nic.in/" target="_blank" class="hover:text-amber-400 transition">• NCERT e-Pathshala</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white font-bold text-base mb-3">Contact & Location</h4>
+        <ul class="space-y-2.5 text-xs">
+          <li class="flex items-start gap-2.5">
+            <i class="fa-solid fa-location-dot text-amber-400 mt-0.5"></i>
+            <span>CM SOE UPG High School Saraidih, Post - Saraidih, District - Latehar, Jharkhand - 829206</span>
+          </li>
+          <li class="flex items-center gap-2.5">
+            <i class="fa-solid fa-phone text-amber-400"></i>
+            <span>+91 98765 43210 (Office Helpdesk)</span>
+          </li>
+          <li class="flex items-center gap-2.5">
+            <i class="fa-solid fa-envelope text-amber-400"></i>
+            <span>cmsoesaraidih@jharkhand.gov.in</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 pt-6 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-400 gap-2">
+      <p>© 2026 CM SOE UPG HS Saraidih, Latehar. All Rights Reserved.</p>
+      <p>Designed in alignment with Jharkhand CM School of Excellence Guidelines.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
